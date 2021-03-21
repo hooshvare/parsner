@@ -140,7 +140,7 @@ from transformers import pipeline
 
 # model_name_or_path = "HooshvareLab/bert-fa-zwnj-base-ner"  # Roberta
 # model_name_or_path = "HooshvareLab/roberta-fa-zwnj-base-ner"  # Roberta
-model_name_or_path = "HooshvareLab/roberta-fa-zwnj-base-ner"  # Distilbert
+model_name_or_path = "HooshvareLab/distilbert-fa-zwnj-base-ner"  # Distilbert
 # model_name_or_path = "HooshvareLab/albert-fa-zwnj-base-v2-ner"  # Albert
 
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
