@@ -1,22 +1,6 @@
-<h1 align="center">ParsNER</h1>
+<h1 align="center">ParsNER 🦁</h1>
 
 <br/><br/>
-
-- [Introduction](#introduction)
-- [Dataset Information](#dataset-information)
-- [Evaluation](#evaluation)
-  - [Bert](#bert)
-  - [Roberta](#roberta)
-  - [Distilbert](#distilbert)
-  - [Albert](#albert)
-- [How To Use](#how-to-use)
-  - [Installing requirements](#installing-requirements)
-  - [How to predict using pipeline](#how-to-predict-using-pipeline)
-- [Models](#models)
-  - [Hugging Face Model Hub](#hugging-face-model-hub)
-  - [Training](#training)
-- [Cite](#cite)
-- [Questions?](#questions)
 
 
 ## Introduction
@@ -179,7 +163,7 @@ All models were trained on a single NVIDIA P100 GPU with following parameters.
 "per_device_train_batch_size": 16
 "per_device_eval_batch_size": 16
 "use_fast_tokenizer": True
-"num_train_epochs": 15.0
+"num_train_epochs": 5.0
 "do_train": True
 "do_eval": True
 "do_predict": True
@@ -200,7 +184,7 @@ Please cite this repository in publications as the following:
 ```bibtext
 @misc{ParsNER,
   author = {Hooshvare Team},
-  title = {Pretrained model for NER in Farsi},
+  title = {Pre-Trained NER models for Persian},
   year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
